@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    /* Serve para tirar o sublinhado e padronizar a cor do texto */
+    text-decoration: none;
+    color: inherit;
+}
+
+:root{
+    --primary-color: #102b21;
+    --secondary-color: #fcca00;
+}
+
+body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 60px; /*Serve para deixar uma borda na lateral */
+    font-family: "Righteous", sans-serif;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
+}
+
+header a{
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white
+}
+
+header h1{
+    display: inline;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white
+}
+
+header span{
+    font-weight: 1000;
+    font-size: 40px;
+    color: #fcca00;
+}
+
+.button{
+    display: flex;
+    gap: 15px;
+}
+
+header img{
+    height: 60px;
+    border-radius: 20px;
+}
+
+header button{
+    height: 60px;
+    width: 140px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: var(--secondary-color);
+    color: rgb(0, 0, 0);
+    border-radius: 10px; /* Serve para deixar arredondado a borda*/
+}
+
+main{
+    background-color: blueviolet;
+    height: 100%;
+}
