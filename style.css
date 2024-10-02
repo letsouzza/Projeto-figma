@@ -79,6 +79,75 @@ header button{
 }
 
 main{
-    background-color: blueviolet;
     height: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.barraesquerda{
+    height: 40%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barraesquerda img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.barraesquerda span{
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    width: 90%;
+    text-align: center;
+    gap: 10px;
+}
+
+.seta img{
+    height: 350px;
+    width: 100px;
+    display: flex;
+}
+
+.centro{
+    background-color: aqua;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 210px;
+    justify-content: center;
+}
+
+.centro h1{
+    font-family: "Asap", sans-serif;
+    font-size: 130px;
+    font-weight: 800;
+    width: 70%;
+    color: #ffedce;
+}
+
+.centro h2{
+    font-family: "Asap", sans-serif;
+    font-size: 130px;
+    font-weight: 800;
+    width: 70%;
+    color: #ffedce;
+}
+
+.barradireita{
+    background-color: chocolate;
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
