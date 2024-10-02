@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-a{
-    /* Serve para tirar o sublinhado e padronizar a cor do texto */
-    text-decoration: none;
-    color: inherit;
-}
-
 :root{
     --primary-color: #102b21;
     --secondary-color: #fcca00;
@@ -37,6 +31,7 @@ header{
 }
 
 header a{
+    text-decoration: none;
     font-family: "Khand", sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -121,33 +116,74 @@ main{
     height: 100%;
     width: 60%;
     display: flex;
-    flex-direction: row;
-    padding-top: 210px;
-    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
 }
 
-.centro h1{
+h1{
     font-family: "Asap", sans-serif;
-    font-size: 130px;
+    font-size: 5vw;
     font-weight: 800;
-    width: 70%;
     color: #ffedce;
+    text-align: center;
 }
 
-.centro h2{
-    font-family: "Asap", sans-serif;
-    font-size: 130px;
-    font-weight: 800;
-    width: 70%;
+.destaque{
+    color: var(--secondary-color);
+}
+
+.title{
     color: #ffedce;
+    position: relative;
+}
+
+.title span{
+    font-size: 5vw;
+}
+
+.title h2{
+    position: absolute;
+    right: 5vw;
+    left: 15vw;
+    font-size: 16vw;
+    font-family: "Imperial Script", cursive;
+    font-size: 120px;
+    color: var(--secondary-color);
+
 }
 
 .barradireita{
-    background-color: chocolate;
     height: 90%;
-    width: 20%;
+    width: 10%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.barradireita img{
+    height: 210px;
+    width: 250px;
+    display: flex;
+}
+
+.barradireita span{
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    width: 90%;
+    text-align: center;
+    gap: 10px;
+}
+
+.barradireita a{
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--secondary-color);
+    width: 90%;
+    text-align: center;
+    gap: 10px;
 }
 
 
