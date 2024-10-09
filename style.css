@@ -100,7 +100,7 @@ main{
     font-weight: 600;
     font-size: 22px;
     color: white;
-    width: 90%;
+    width: 120%;
     text-align: center;
     gap: 10px;
 }
@@ -122,8 +122,8 @@ main{
 .circle img{
     position: absolute;
     top: 25vw;
-    left: 23vw;
-    height: 35vw;
+    left: 25vw;
+    height: 33vw;
     z-index: 2;
 }
 
@@ -177,8 +177,8 @@ main h1{
 }
 
 .barradireita img{
-    height: 210px;
-    width: 250px;
+    height: 200px;
+    width: 240px;
     display: flex;
 }
 
@@ -187,7 +187,7 @@ main h1{
     font-weight: 600;
     font-size: 22px;
     color: white;
-    width: 90%;
+    width: 120%;
     text-align: center;
     gap: 10px;
 }
@@ -202,4 +202,10 @@ main h1{
     gap: 10px;
 }
 
-
+.redes img{
+    position: absolute;
+    top: 35vw;
+    right: 8vw;
+    height: auto;
+    width: 4vw;
+}
