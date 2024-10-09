@@ -112,7 +112,6 @@ main{
 }
 
 .centro{
-    background-color: aqua;
     height: 100%;
     width: 60%;
     display: flex;
@@ -120,12 +119,24 @@ main{
     padding-top: 100px;
 }
 
-h1{
+.circle img{
+    position: absolute;
+    top: 25vw;
+    left: 23vw;
+    height: 35vw;
+    z-index: 2;
+}
+
+main h1{
+    position: absolute;
+    top: 13vw;
+    left: 32vw;
     font-family: "Asap", sans-serif;
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 800;
     color: #ffedce;
     text-align: center;
+    z-index: 3;
 }
 
 .destaque{
@@ -137,19 +148,24 @@ h1{
     position: relative;
 }
 
-.title span{
-    font-size: 5vw;
-}
-
 .title h2{
     position: absolute;
     right: 5vw;
-    left: 15vw;
+    left: 5vw;
+    top: -3vw;
     font-size: 16vw;
     font-family: "Imperial Script", cursive;
-    font-size: 120px;
+    font-size: 7vw;
     color: var(--secondary-color);
+}
 
+.glass img{
+    position: absolute;
+    z-index: 4;
+    top: 25vw;
+    right: 18vw;
+    height: 33vw;
+    
 }
 
 .barradireita{
