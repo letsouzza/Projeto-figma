@@ -260,3 +260,43 @@ main h1{
         height: 60vw; 
     }
 }
+
+@media (max-width: 640px) {
+    .barradireita{
+        display: none;
+    }
+    .barraesquerda{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 8vw;
+    }
+    .button{
+        position: absolute;
+        top: 5vw;
+        left: 60vw;
+        gap: 5px;
+    }
+    main h1{
+        top: 55vw;
+        left: 15vw;
+        font-size: 12vw ;
+    }
+    .title h2{
+        font-size: 12vw;
+    }
+    .circle img{
+        top: 95vw;
+        left: -20vw;
+        height: 85vw;
+    }
+    .glass img{
+        top: 110vw;
+        right: -18vw;
+        height: 80vw; 
+    }
+}
