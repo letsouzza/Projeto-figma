@@ -164,8 +164,7 @@ main h1{
     z-index: 4;
     top: 25vw;
     right: 18vw;
-    height: 33vw;
-    
+    height: 33vw; 
 }
 
 .barradireita{
@@ -208,4 +207,56 @@ main h1{
     right: 8vw;
     height: auto;
     width: 4vw;
+}
+
+@media (max-width: 960px) {
+    body{
+        padding-inline: 30px;
+    }
+    .barradireita{
+        display: none;
+    }
+    .barraesquerda{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 45vw;
+    }
+    .menu{
+        position: absolute;
+        top: 15vw;
+        gap: 20px; /*Distância entre os elementos */
+    }
+    .button{
+        position: absolute;
+        top: 15vw;
+        left: 75vw;
+        gap: 10px;
+    }
+    header img{
+        height: 45px;
+    }
+    header button{
+        height: 40px;
+        width: 110px;
+    }
+    main h1{
+        top: 38vw;
+        left: 18vw;
+        font-size: 10vw ;
+    }
+    .title h2{
+        font-size: 10vw;
+    }
+    .circle img{
+        top: 75vw;
+        left: -13vw;
+        height: 70vw;
+    }
+    .glass img{
+        top: 80vw;
+        right: 0;
+        height: 60vw; 
+    }
 }
